@@ -29,4 +29,17 @@ To run this repo, be sure to install the following environment and library:
 For this, we will use the [TensorFlow](https://github.com/tensorflow/tensorflow) data pipeline.
 * For the classifier, we are using a transfer learning approach and using an Inception-ResnetV2 architecture trained on the imagenet dataset.
 
-_Dataset is uploaded on this repo itself_
+# Working of Model
+![image](https://user-images.githubusercontent.com/67470724/178105705-ac882d05-4b7b-4db6-88e0-868d96f41c20.png)
+
+_The proposed model will fetch input in the form of ultrasound image from the user and it is given to classifier. If nerve is detected, it is passed on to the segmentor and mask as output is predicted, else `No nerve found' is displayed_
+
+![image](https://user-images.githubusercontent.com/67470724/178105672-d92cc6ae-9fdf-4275-8ac8-eec3be20d7e1.png)
+
+# Applications
+* Ultrasound Nerve Segmentation can be used by Surgeons, Doctors, Physiotherapists as well as medical students.
+* This application can help a lot of people to protect themselves from the side effects of anesthesia.
+* Developed further this website can be customized for users and can also carry their medical data of ultrasound images along with nerve segmentation.
+* Currently, the dataset provided is of the human body, further if we add the data of different animals it can surely do wonders.
+
+__Detailed Working of this model is mentioned [here]()__
