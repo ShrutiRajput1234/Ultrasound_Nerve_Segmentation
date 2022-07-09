@@ -3,7 +3,7 @@ The project is based on CNN U-Net. We developed a python application which segme
 This app shows accuracy of 98%
 ![image](https://user-images.githubusercontent.com/67470724/178104060-b6b65535-f7cc-4176-8934-ed9cbc46db29.png)
 
-# Vison
+# Vision
 1. The crux of our project is to detect the nerve clusters in the human body and segment them accordingly. This segmentation is very useful for accurate medication
 of a patient after a surgery or before a surgery.
 2. To identify nerve structures an ultrasound image of the region containing nerves is taken but identification is a non-trivial task even for the experts in the field as
