@@ -42,4 +42,4 @@ _The proposed model will fetch input in the form of ultrasound image from the us
 * Developed further this website can be customized for users and can also carry their medical data of ultrasound images along with nerve segmentation.
 * Currently, the dataset provided is of the human body, further if we add the data of different animals it can surely do wonders.
 
-__Detailed Working of this model is mentioned [here]()__
+__Detailed Working of this model is mentioned [here](https://github.com/ShrutiRajput1234/Ultrasound_Nerve_Segmentation/blob/main/Phase2_ppt.pptx)__
